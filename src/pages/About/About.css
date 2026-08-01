@@ -99,14 +99,14 @@
 }
 
 .about-page__team-img {
-  width: 160px;
-  height: 160px;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1.25rem;
-  border: 4px solid #38bdf8;
-  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25);
-  transition: transform 0.35s ease;
+  border: none;
+  box-shadow: 0 12px 30px rgba(12, 74, 110, 0.15);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .about-page__team-card:hover .about-page__team-img {
