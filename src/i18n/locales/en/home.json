@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "title": "A Healthy Smile for the Whole Family",
+    "subtitle": "Welcome to a modern and compassionate dental clinic.",
+    "cta": "Book Appointment",
+    "ctaSecondary": "Our Treatments"
+  },
+  "promo": {
+    "ariaLabel": "Satisfied patient in the dental chair",
+    "eyebrow": "Your Smile in Focus",
+    "title": "A Reassuring Experience from Start to Finish",
+    "subtitle": "At our clinic, you'll meet a friendly team and state-of-the-art care. Sit back in the chair and leave your worries behind – we will take care of the rest.",
+    "cta": "Book Your Appointment"
+  },
+  "welcome": {
+    "title": "A Warm Welcome to Our Clinic",
+    "body": "We combine modern technology with a genuine dedication to your oral health. Our experienced team ensures you feel comfortable and secure from your very first visit.",
+    "features": {
+      "experience": "Over 20 Years of Experience",
+      "technology": "Modern Digital Technology",
+      "care": "Care for the Entire Family"
+    }
+  },
+  "treatmentsPreview": {
+    "title": "Our Treatments",
+    "subtitle": "From routine dental care to advanced cosmetics – we have the right solution for you.",
+    "readMore": "Read More",
+    "items": {
+      "general": {
+        "title": "General Dentistry",
+        "desc": "Check-ups, cleanings, and preventive care."
+      },
+      "aesthetic": {
+        "title": "Cosmetic Dentistry",
+        "desc": "Whitening, veneers, and a brighter smile."
+      },
+      "emergency": {
+        "title": "Emergency Dental Care",
+        "desc": "Fast assistance whenever you experience pain."
+      },
+      "specialist": {
+        "title": "Specialist Dentistry",
+        "desc": "Implants, bite physiology, and orthodontics."
+      }
+    }
+  }
+}

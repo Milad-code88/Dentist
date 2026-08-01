@@ -1,0 +1,44 @@
+{
+  "title": "Våra behandlingar",
+  "subtitle": "Allt du behöver för ett friskt och vackert leende – under ett tak.",
+  "items": {
+    "general": {
+      "title": "Allmäntandvård",
+      "desc": "Kontroller, rengöring, lagningar och förebyggande vård som håller dina tänder starka.",
+      "points": {
+        "one": "Årliga undersökningar",
+        "two": "Professionell tandstensborttagning",
+        "three": "Fyllningar och lagningar"
+      }
+    },
+    "aesthetic": {
+      "title": "Estetisk tandvård",
+      "desc": "Vitning, fasader och designat arbete för ett ljusare, jämnare leende.",
+      "points": {
+        "one": "Tandblekning",
+        "two": "Porslinsfasader",
+        "three": "Estetisk komposit"
+      }
+    },
+    "emergency": {
+      "title": "Akut tandvård",
+      "desc": "Snabb hjälp vid tandvärk, olyckor och skador – oftast samma dag.",
+      "points": {
+        "one": "Akut smärtlindring",
+        "two": "Skador på tand och tandkött",
+        "three": "Reparation av trasiga tänder"
+      }
+    },
+    "specialist": {
+      "title": "Specialisttandvård",
+      "desc": "Avancerad vård som implantat, bettfysiologi och ortodonti.",
+      "points": {
+        "one": "Tandimplantat",
+        "two": "Bettfysiologi",
+        "three": "Ortodonti (tandreglering)"
+      }
+    }
+  },
+  "ctaTitle": "Osäker på vad du behöver?",
+  "ctaBody": "Boka en konsultation så hjälper vi dig att hitta rätt behandling."
+}

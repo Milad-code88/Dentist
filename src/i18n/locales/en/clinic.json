@@ -1,0 +1,22 @@
+{
+  "title": "Find Our Clinic",
+  "subtitle": "We are easily accessible – drop by or give us a call.",
+  "address": {
+    "label": "Address",
+    "value": "Friedrichstraße 42, 10117 Berlin"
+  },
+  "phone": {
+    "label": "Phone",
+    "value": "+49 30 1234 5678"
+  },
+  "email": {
+    "label": "Email",
+    "value": "kontakt@tandlakaren.se"
+  },
+  "hours": {
+    "label": "Opening Hours",
+    "value": "Mon–Fri 08:00–17:00"
+  },
+  "mapTitle": "Map & Directions",
+  "directions": "Get Directions"
+}

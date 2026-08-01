@@ -1,0 +1,47 @@
+{
+  "title": "Om vår klinik",
+  "subtitle": "Ett engagerat team som sätter din munhälsa i centrum.",
+  "story": {
+    "title": "Vår historia",
+    "body": "I över 20 år har vi varit en trygg plats för familjens tandvård. Vi kombinerar modern teknik med en personlig och varm välkomnande atmosfär, så att varje besök ska kännas lugnt och meningsfullt."
+  },
+  "mission": {
+    "title": "Vårt uppdrag",
+    "body": "Vi tror att god munhälsa är grunden för ett hälsosamt liv. Därför arbetar vi förebyggande, noggrant och alltid med patientens bästa i fokus."
+  },
+  "values": {
+    "title": "Våra värderingar",
+    "items": {
+      "care": {
+        "title": "Omtanke",
+        "desc": "Vi lyssnar och anpassar vår vård efter varje individ."
+      },
+      "quality": {
+        "title": "Kvalitet",
+        "desc": "Vi använder modern teknik och beprövade metoder."
+      },
+      "trust": {
+        "title": "Tillit",
+        "desc": "Vi bygger långsiktiga relationer med våra patienter."
+      }
+    }
+  },
+  "team": {
+    "title": "Vårt team",
+    "subtitle": "Möt de människor som tar hand om ditt leende.",
+    "members": {
+      "lead": {
+        "name": "Dr. Sara Lindqvist",
+        "role": "Ansvarig tandläkare"
+      },
+      "hygienist": {
+        "name": "Mona Eriksson",
+        "role": "Tandhygienist"
+      },
+      "assistant": {
+        "name": "Yasmin Rahimi",
+        "role": "Tandsköterska"
+      }
+    }
+  }
+}

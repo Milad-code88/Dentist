@@ -1,0 +1,22 @@
+{
+  "title": "کلینیک ما را پیدا کنید",
+  "subtitle": "ما در دسترس شما هستیم – تشریف بیاورید یا تماس بگیرید.",
+  "address": {
+    "label": "نشانی",
+    "value": "Friedrichstraße 42, 10117 Berlin"
+  },
+  "phone": {
+    "label": "تلفن",
+    "value": "+49 30 1234 5678"
+  },
+  "email": {
+    "label": "ایمیل",
+    "value": "kontakt@tandlakaren.se"
+  },
+  "hours": {
+    "label": "ساعات کاری",
+    "value": "دوشنبه تا جمعه ۰۸:۰۰–۱۷:۰۰"
+  },
+  "mapTitle": "نقشه و مسیر",
+  "directions": "نمایش مسیر"
+}

@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "title": "Ett sunt leende för hela familjen",
+    "subtitle": "Välkommen till en modern och omtankefull tandvårdsklinik.",
+    "cta": "Boka tid",
+    "ctaSecondary": "Våra behandlingar"
+  },
+  "promo": {
+    "ariaLabel": "Nöjd patient i tandläkarstolen",
+    "eyebrow": "Ditt leende i fokus",
+    "title": "En trygg upplevelse från början till slut",
+    "subtitle": "Hos oss möter du ett vänligt team och modern vård. Luta dig tillbaka i stolen och lämna över oron – vi tar hand om resten.",
+    "cta": "Boka din tid"
+  },
+  "welcome": {
+    "title": "Varmt välkommen till vår klinik",
+    "body": "Vi kombinerar modern teknik med ett genuint engagemang för din munhälsa. Vårt erfarna team ser till att du känner dig trygg från första besök.",
+    "features": {
+      "experience": "Över 20 års erfarenhet",
+      "technology": "Modern digital teknik",
+      "care": "Omtanke om hela familjen"
+    }
+  },
+  "treatmentsPreview": {
+    "title": "Våra behandlingar",
+    "subtitle": "Från rutinmässig tandvård till avancerad estetik – vi har lösningen.",
+    "readMore": "Läs mer",
+    "items": {
+      "general": {
+        "title": "Allmäntandvård",
+        "desc": "Kontroller, rengöring och förebyggande vård."
+      },
+      "aesthetic": {
+        "title": "Estetisk tandvård",
+        "desc": "Vitning, fasader och ett ljusare leende."
+      },
+      "emergency": {
+        "title": "Akut tandvård",
+        "desc": "Snabb hjälp när det gör ont."
+      },
+      "specialist": {
+        "title": "Specialisttandvård",
+        "desc": "Implantat, bettfysiologi och ortodonti."
+      }
+    }
+  }
+}

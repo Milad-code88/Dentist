@@ -1,0 +1,44 @@
+{
+  "form": {
+    "title": "Boka din tid",
+    "subtitle": "Fyll i formuläret så återkommer vi inom 24 timmar.",
+    "name": "Namn",
+    "namePlaceholder": "Ditt fullständiga namn",
+    "email": "E-post",
+    "emailPlaceholder": "namn@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+49 30 1234 5678",
+    "treatment": "Behandling",
+    "treatmentPlaceholder": "Välj behandling",
+    "date": "Önskat datum",
+    "time": "Önskad tid",
+    "timePlaceholder": "t.ex. 14:30",
+    "message": "Meddelande",
+    "messagePlaceholder": "Finns det något mer vi bör veta?",
+    "submit": "Skicka förfrågan",
+    "submitting": "Skickar…"
+  },
+  "treatments": {
+    "general": "Allmäntandvård",
+    "aesthetic": "Estetisk tandvård",
+    "emergency": "Akut tandvård",
+    "specialist": "Specialisttandvård"
+  },
+  "timeSlots": {
+    "title": "Välj en tid",
+    "morning": "Förmiddag",
+    "afternoon": "Eftermiddag"
+  },
+  "confirmation": {
+    "title": "Tack för din bokning!",
+    "body": "Vi har tagit emot din förfrågan och kommer att bekräfta din tid via e-post.",
+    "newBooking": "Boka en ny tid"
+  },
+  "validation": {
+    "required": "Detta fält är obligatoriskt",
+    "email": "Ange en giltig e-postadress",
+    "phone": "Ange ett giltigt telefonnummer",
+    "date": "Välj ett datum från och med idag",
+    "minLength": "Ange minst {{count}} tecken"
+  }
+}

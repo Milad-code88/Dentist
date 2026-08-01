@@ -1,0 +1,44 @@
+{
+  "title": "Our Treatments",
+  "subtitle": "Everything you need for a healthy and beautiful smile – all under one roof.",
+  "items": {
+    "general": {
+      "title": "General Dentistry",
+      "desc": "Check-ups, professional cleanings, fillings, and preventive care to keep your teeth strong.",
+      "points": {
+        "one": "Annual Examinations",
+        "two": "Professional Tartar Removal",
+        "three": "Tooth Fillings & Restoration"
+      }
+    },
+    "aesthetic": {
+      "title": "Cosmetic Dentistry",
+      "desc": "Whitening, porcelain veneers, and custom work for a brighter, more harmonious smile.",
+      "points": {
+        "one": "Teeth Whitening",
+        "two": "Porcelain Veneers",
+        "three": "Esthetic Composite Bonding"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Dental Care",
+      "desc": "Fast relief for toothaches, trauma, and accidents – usually available on the same day.",
+      "points": {
+        "one": "Emergency Pain Relief",
+        "two": "Tooth & Gum Trauma Care",
+        "three": "Broken Tooth Repair"
+      }
+    },
+    "specialist": {
+      "title": "Specialist Dentistry",
+      "desc": "Advanced procedures including dental implants, bite physiology, and orthodontics.",
+      "points": {
+        "one": "Dental Implants",
+        "two": "Bite Physiology",
+        "three": "Orthodontics (Braces / Aligners)"
+      }
+    }
+  },
+  "ctaTitle": "Unsure of What You Need?",
+  "ctaBody": "Book a consultation with us and we will help you find the optimal treatment plan."
+}

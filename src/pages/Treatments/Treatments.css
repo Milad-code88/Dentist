@@ -1,0 +1,77 @@
+.treatments-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.treatments-page__header {
+  text-align: center;
+}
+
+.treatments-page__header h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #0c4a6e;
+  margin-bottom: 0.5rem;
+}
+
+.treatments-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.treatments-page__card {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: var(--glass-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--glass-shadow);
+}
+
+.treatments-page__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.treatments-page__content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.treatments-page__content h2 {
+  color: #0c4a6e;
+  margin-bottom: 0.75rem;
+}
+
+.treatments-page__content p {
+  color: #334155;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.treatments-page__content ul {
+  list-style: square;
+  padding-left: 1.25rem;
+  color: #0284c7;
+}
+
+.treatments-page__content li {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .treatments-page__card {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Holtwood+One+SC&family=Shrikhand&display=swap');
+
+:root {
+  --font-display: "Shrikhand", cursive, serif;
+  --font-heading: "Shrikhand", "Holtwood One SC", "DM Serif Text", serif;
+  --font-primary: "DM Serif Text", serif;
+  --font-navbar: "DM Serif Text", serif;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-blur: blur(16px) saturate(180%);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.8);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  --glass-shadow-hover: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
+  --transition-fast: 0.2s ease;
+}

@@ -1,0 +1,44 @@
+{
+  "form": {
+    "title": "نوبت خود را رزرو کنید",
+    "subtitle": "فرم زیر را پر کنید، ما ظرف ۲۴ ساعت با شما تماس می‌گیریم.",
+    "name": "نام و نام خانوادگی",
+    "namePlaceholder": "نام کامل شما",
+    "email": "ایمیل",
+    "emailPlaceholder": "name@example.com",
+    "phone": "تلفن",
+    "phonePlaceholder": "+49 30 1234 5678",
+    "treatment": "نوع درمان",
+    "treatmentPlaceholder": "درمان را انتخاب کنید",
+    "date": "تاریخ مورد نظر",
+    "time": "زمان مورد نظر",
+    "timePlaceholder": "مثلا ۱۴:۳۰",
+    "message": "پیام",
+    "messagePlaceholder": "نکته دیگری هست که باید بدانیم؟",
+    "submit": "ارسال درخواست",
+    "submitting": "در حال ارسال…"
+  },
+  "treatments": {
+    "general": "دندانپزشکی عمومی",
+    "aesthetic": "دندانپزشکی زیبایی",
+    "emergency": "اورژانس دندانپزشکی",
+    "specialist": "دندانپزشکی تخصصی"
+  },
+  "timeSlots": {
+    "title": "انتخاب زمان",
+    "morning": "نوبت صبح",
+    "afternoon": "نوبت عصر"
+  },
+  "confirmation": {
+    "title": "با تشکر از رزرو شما!",
+    "body": "درخواست شما دریافت شد و نوبت شما از طریق ایمیل تایید خواهد شد.",
+    "newBooking": "رزرو نوبت جدید"
+  },
+  "validation": {
+    "required": "این فیلد الزامی است",
+    "email": "لطفا ایمیل معتبر وارد کنید",
+    "phone": "لطفا شماره تلفن معتبر وارد کنید",
+    "date": "لطفا تاریخی از امروز به بعد انتخاب کنید",
+    "minLength": "لطفا حداقل {{count}} کاراکتر وارد کنید"
+  }
+}

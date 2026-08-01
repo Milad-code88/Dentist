@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "brand": "Tandläkaren",
+    "treatments": "Treatments",
+    "about": "About Us",
+    "findClinic": "Find Clinic",
+    "callUs": "Call Us",
+    "bookButton": "Book Appointment",
+    "availableStatus": "Open & Emergency Care",
+    "menu": "Menu",
+    "dropdown": {
+      "general": "General Dentistry",
+      "aesthetic": "Cosmetic Dentistry",
+      "emergency": "Emergency Dental Care",
+      "specialist": "Specialist Dentistry"
+    }
+  },
+  "footer": {
+    "tagline": "Modern dental care with compassion – for the whole family.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "rights": "© {{year}} Tandläkaren. All rights reserved."
+  },
+  "buttons": {
+    "readMore": "Read More",
+    "bookNow": "Book Now",
+    "send": "Send",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit"
+  },
+  "languageSwitcher": {
+    "sv": "Svenska",
+    "fa": "فارسی",
+    "en": "English"
+  },
+  "images": {
+    "hero": "Friendly smile from the dental clinic",
+    "promo": "Happy patient smiling in the dental chair with dentist beside them",
+    "welcome": "Family visiting the dentist",
+    "treatmentGeneral": "Dental check-up at the dentist",
+    "treatmentAesthetic": "Cosmetic smile treatment",
+    "treatmentEmergency": "Emergency dental care",
+    "treatmentSpecialist": "Specialist dentistry and implants",
+    "teamMember1": "Portrait of lead dentist",
+    "teamMember2": "Portrait of dental hygienist",
+    "teamMember3": "Portrait of dental assistant",
+    "reception": "Friendly waiting room at the practice",
+    "clinic": "Modern clinic interior"
+  },
+  "reviews": {
+    "title": "What Our Patients Say",
+    "subtitle": "Genuine voices from people who trust us with their oral health.",
+    "items": {
+      "one": {
+        "name": "Anna S.",
+        "quote": "Fantastic service and friendly staff. I felt safe throughout the entire process."
+      },
+      "two": {
+        "name": "Erik J.",
+        "quote": "Fast emergency help and a skilled team. Best dental visit I've ever had."
+      },
+      "three": {
+        "name": "Layla M.",
+        "quote": "Extremely thorough and caring. Our entire family comes here now."
+      }
+    }
+  }
+}

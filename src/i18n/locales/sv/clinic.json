@@ -1,0 +1,22 @@
+{
+  "title": "Hitta vår klinik",
+  "subtitle": "Vi finns lättillgängligt – kom förbi eller ring oss.",
+  "address": {
+    "label": "Adress",
+    "value": "Friedrichstraße 42, 10117 Berlin"
+  },
+  "phone": {
+    "label": "Telefon",
+    "value": "+49 30 1234 5678"
+  },
+  "email": {
+    "label": "E-post",
+    "value": "kontakt@tandlakaren.se"
+  },
+  "hours": {
+    "label": "Öppettider",
+    "value": "Mån–Fre 08:00–17:00"
+  },
+  "mapTitle": "Karta och vägbeskrivning",
+  "directions": "Visa vägbeskrivning"
+}

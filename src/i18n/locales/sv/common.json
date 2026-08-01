@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "brand": "Tandläkaren",
+    "treatments": "Behandlingar",
+    "about": "Om oss",
+    "findClinic": "Hitta klinik",
+    "callUs": "Ring oss",
+    "bookButton": "Boka tid",
+    "availableStatus": "Öppet & Akutbokning",
+    "menu": "Meny",
+    "dropdown": {
+      "general": "Allmäntandvård",
+      "aesthetic": "Estetisk tandvård",
+      "emergency": "Akut tandvård",
+      "specialist": "Specialisttandvård"
+    }
+  },
+  "footer": {
+    "tagline": "Modern tandvård med omtanke – för hela familjen.",
+    "quickLinks": "Snabblänkar",
+    "contact": "Kontakt",
+    "address": "Adress",
+    "phone": "Telefon",
+    "email": "E-post",
+    "rights": "© {{year}} Tandläkaren. Alla rättigheter förbehållna."
+  },
+  "buttons": {
+    "readMore": "Läs mer",
+    "bookNow": "Boka nu",
+    "send": "Skicka",
+    "cancel": "Avbryt",
+    "back": "Tillbaka",
+    "submit": "Skicka"
+  },
+  "languageSwitcher": {
+    "sv": "Svenska",
+    "fa": "فارسی",
+    "en": "English"
+  },
+  "images": {
+    "hero": "Vänligt leende från tandläkarmottagningen",
+    "promo": "Glad patient som ler i tandläkarstolen med tandläkaren vid sidan av",
+    "welcome": "Familj som besöker tandläkaren",
+    "treatmentGeneral": "Kontroll av tänder hos tandläkaren",
+    "treatmentAesthetic": "Estetisk behandling av ett leende",
+    "treatmentEmergency": "Akut tandvård",
+    "treatmentSpecialist": "Specialisttandvård och implantat",
+    "teamMember1": "Porträtt av ansvarig tandläkare",
+    "teamMember2": "Porträtt av tandhygienist",
+    "teamMember3": "Porträtt av tandsköterska",
+    "reception": "Mottagningens vänliga väntrum",
+    "clinic": "Modern klinikinteriör"
+  },
+  "reviews": {
+    "title": "Vad våra patienter säger",
+    "subtitle": "Äkta röster från människor som litar på oss med sin munhälsa.",
+    "items": {
+      "one": {
+        "name": "Anna S.",
+        "quote": "Fantastisk service och vänlig personal. Jag kände mig trygg hela vägen."
+      },
+      "two": {
+        "name": "Erik J.",
+        "quote": "Snabb akuthjälp och skickigt team. Bästa tandläkarbesöket jag gjort."
+      },
+      "three": {
+        "name": "Layla M.",
+        "quote": "Väldigt noggrann och omtänksam. Hela familjen går hit nu."
+      }
+    }
+  }
+}

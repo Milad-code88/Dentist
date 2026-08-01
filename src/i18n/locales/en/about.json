@@ -1,0 +1,47 @@
+{
+  "title": "About Our Clinic",
+  "subtitle": "A dedicated team placing your oral health at the center of everything we do.",
+  "story": {
+    "title": "Our Story",
+    "body": "For over 20 years, we have been a trusted dental care provider for families. We combine cutting-edge technology with a personal and warm welcoming atmosphere, ensuring every visit feels calm and meaningful."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "body": "We believe that good oral health is the foundation of a healthy life. That is why we focus on preventive, meticulous care, always putting our patients first."
+  },
+  "values": {
+    "title": "Our Core Values",
+    "items": {
+      "care": {
+        "title": "Care",
+        "desc": "We listen attentively and tailor our care to each individual."
+      },
+      "quality": {
+        "title": "Quality",
+        "desc": "We utilize modern digital tech and proven dental methods."
+      },
+      "trust": {
+        "title": "Trust",
+        "desc": "We build long-lasting relationships with our patients."
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the professionals dedicated to your smile.",
+    "members": {
+      "lead": {
+        "name": "Dr. Sara Lindqvist",
+        "role": "Lead Dentist"
+      },
+      "hygienist": {
+        "name": "Mona Eriksson",
+        "role": "Dental Hygienist"
+      },
+      "assistant": {
+        "name": "Yasmin Rahimi",
+        "role": "Dental Assistant"
+      }
+    }
+  }
+}

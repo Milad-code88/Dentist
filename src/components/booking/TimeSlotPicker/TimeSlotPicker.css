@@ -1,0 +1,49 @@
+.time-slot-picker {
+  margin-top: 1.5rem;
+}
+
+.time-slot-picker__title {
+  font-size: 1.1rem;
+  color: #0c4a6e;
+  margin-bottom: 1rem;
+}
+
+.time-slot-picker__group {
+  margin-bottom: 1rem;
+}
+
+.time-slot-picker__label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.time-slot-picker__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.time-slot-picker__btn {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  background: rgba(255, 255, 255, 0.8);
+  color: #0c4a6e;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.time-slot-picker__btn:hover {
+  background: #38bdf8;
+  color: #ffffff;
+}
+
+.time-slot-picker__btn--selected {
+  background: #0284c7;
+  color: #ffffff;
+  border-color: #0284c7;
+}
