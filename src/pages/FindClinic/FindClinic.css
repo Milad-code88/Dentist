@@ -21,6 +21,13 @@
   margin-bottom: 0.5rem;
 }
 
+.find-clinic-page__header p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #334155;
+  margin: 0;
+}
+
 .find-clinic-page__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
