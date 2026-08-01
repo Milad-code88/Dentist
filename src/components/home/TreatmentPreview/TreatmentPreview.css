@@ -9,7 +9,11 @@
 
 .treatment-preview__title {
   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-  color: #0c4a6e;
+  background: linear-gradient(135deg, #0c4a6e 0%, #0284c7 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 4px 12px rgba(2, 132, 199, 0.25));
   font-weight: 800;
   margin-bottom: 0.5rem;
 }
@@ -22,61 +26,83 @@
 .treatment-preview__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 .treatment-preview__card {
   background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
   border: var(--glass-border);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--glass-shadow);
+  box-shadow: 0 10px 30px rgba(12, 74, 110, 0.1);
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 440px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
 .treatment-preview__card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--glass-shadow-hover);
+  transform: translateY(-8px);
+  border-color: rgba(56, 189, 248, 0.6);
+  box-shadow: 0 16px 40px rgba(12, 74, 110, 0.18);
 }
 
 .treatment-preview__media {
-  height: 180px;
+  height: 240px;
   overflow: hidden;
+  position: relative;
 }
 
 .treatment-preview__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.treatment-preview__card:hover .treatment-preview__image {
+  transform: scale(1.06);
 }
 
 .treatment-preview__body {
-  padding: 1.5rem;
+  padding: 1.75rem 1.5rem;
   display: flex;
   flex-direction: column;
   flex: 1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(240, 249, 255, 0.8) 100%);
 }
 
 .treatment-preview__card-title {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.6rem;
   color: #0c4a6e;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
+  font-weight: 800;
 }
 
 .treatment-preview__card-desc {
   color: #475569;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
   flex: 1;
 }
 
 .treatment-preview__link {
   color: #0284c7;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.05rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+
+.treatment-preview__link:hover {
+  color: #0369a1;
+  gap: 0.6rem;
 }
 
 @media (max-width: 1024px) {

@@ -14,7 +14,11 @@
 
 .welcome-section__title {
   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-  color: #0c4a6e;
+  background: linear-gradient(135deg, #0c4a6e 0%, #0284c7 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 4px 12px rgba(2, 132, 199, 0.25));
   margin-bottom: 1rem;
   font-weight: 800;
 }
