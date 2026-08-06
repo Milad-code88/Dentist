@@ -11,9 +11,27 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
+    let prevScrollPos = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setScrolled(currentScrollPos > 20);
+
+      if (Math.abs(prevScrollPos - currentScrollPos) > 5) {
+        if (currentScrollPos < 50) {
+          setVisible(true);
+        } else if (currentScrollPos > prevScrollPos) {
+          setVisible(false);
+        } else {
+          setVisible(true);
+        }
+        prevScrollPos = currentScrollPos;
+      }
+    };
+
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
@@ -25,7 +43,11 @@ const Navbar = () => {
     `navbar__link${isActive ? " navbar__link--active" : ""}`;
 
   return (
-    <header className={`navbar-header${scrolled ? " navbar-header--scrolled" : ""}`}>
+    <header
+      className={`navbar-header${scrolled ? " navbar-header--scrolled" : ""}${
+        !visible && !isOpen ? " navbar-header--hidden" : ""
+      }`}
+    >
       <div className="navbar-container">
         {/* Left Standalone Floating Logo Badge */}
         <Link to="/" className="navbar__logo-link" onClick={closeMenu}>

@@ -24,8 +24,16 @@ h6 {
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f9ff;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.2), transparent 70%),
+    linear-gradient(180deg, rgba(240, 249, 255, 0.82) 0%, rgba(224, 242, 254, 0.88) 100%),
+    url("../assets/background/bg-tools.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #0f172a;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
