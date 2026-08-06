@@ -11,3 +11,15 @@
   margin: 0 auto;
   padding: 7.75rem 1.5rem 1rem;
 }
+
+@media (max-width: 768px) {
+  .layout__content {
+    padding: 6rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout__content {
+    padding: 5.25rem 0.75rem 1rem;
+  }
+}

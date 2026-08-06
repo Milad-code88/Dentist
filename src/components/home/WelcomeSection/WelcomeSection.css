@@ -80,3 +80,10 @@
     gap: 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .welcome-section {
+    padding: 1.25rem 1rem;
+    gap: 1.5rem;
+  }
+}

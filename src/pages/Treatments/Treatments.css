@@ -79,4 +79,12 @@
   .treatments-page__card {
     grid-template-columns: 1fr;
   }
+
+  .treatments-page__img {
+    height: 220px;
+  }
+
+  .treatments-page__content {
+    padding: 1.5rem 1.25rem;
+  }
 }

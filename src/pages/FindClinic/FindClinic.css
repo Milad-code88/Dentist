@@ -105,5 +105,14 @@
 @media (max-width: 768px) {
   .find-clinic-page__grid {
     grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .find-clinic-page__info {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .find-clinic-page__media {
+    min-height: 280px;
   }
 }

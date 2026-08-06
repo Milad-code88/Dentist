@@ -54,21 +54,9 @@ const Navbar = () => {
           <img src={logoImg} alt={t("navbar.brand")} className="navbar__logo-img" />
         </Link>
 
-        {/* Center Floating Navigation Island */}
-        <div className="navbar__main-island">
-          <button
-            type="button"
-            className={`navbar__hamburger${isOpen ? " navbar__hamburger--open" : ""}`}
-            aria-label={t("navbar.menu")}
-            aria-expanded={isOpen}
-            onClick={() => setIsOpen((prev) => !prev)}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
-
-          <nav className={`navbar__links${isOpen ? " navbar__links--open" : ""}`}>
+        {/* Center Floating Navigation Island (Desktop) */}
+        <div className="navbar__main-island navbar__main-island--desktop">
+          <nav className="navbar__links">
             <div
               className="navbar__item navbar__item--has-dropdown"
               onMouseEnter={() => setDropdownOpen(true)}
@@ -108,8 +96,8 @@ const Navbar = () => {
           </nav>
         </div>
 
-        {/* Right Floating Actions Island */}
-        <div className="navbar__actions-island">
+        {/* Right Floating Actions Island (Desktop) */}
+        <div className="navbar__actions-island navbar__actions-island--desktop">
           <LanguageSwitcher />
 
           <a href="tel:+493012345678" className="navbar__phone">
@@ -140,6 +128,68 @@ const Navbar = () => {
             <Link to="/booking">{t("navbar.bookButton")}</Link>
           </LiquidButton>
         </div>
+
+        {/* Mobile/Tablet Hamburger Trigger Button */}
+        <button
+          type="button"
+          className={`navbar__hamburger${isOpen ? " navbar__hamburger--open" : ""}`}
+          aria-label={t("navbar.menu")}
+          aria-expanded={isOpen}
+          onClick={() => setIsOpen((prev) => !prev)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        {/* Mobile/Tablet Full Dropdown Drawer */}
+        <nav className={`navbar__mobile-drawer${isOpen ? " navbar__mobile-drawer--open" : ""}`}>
+          <div className="navbar__mobile-links">
+            <NavLink to="/treatments" className={getNavLinkClass} onClick={closeMenu}>
+              {t("navbar.treatments")}
+            </NavLink>
+            <NavLink to="/about" className={getNavLinkClass} onClick={closeMenu}>
+              {t("navbar.about")}
+            </NavLink>
+            <NavLink to="/find-clinic" className={getNavLinkClass} onClick={closeMenu}>
+              {t("navbar.findClinic")}
+            </NavLink>
+          </div>
+
+          <div className="navbar__mobile-divider" />
+
+          <div className="navbar__mobile-actions">
+            <LanguageSwitcher />
+
+            <a href="tel:+493012345678" className="navbar__phone navbar__phone--mobile">
+              <svg
+                className="navbar__phone-icon"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                aria-hidden="true"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span>{t("navbar.callUs")}</span>
+            </a>
+
+            <LiquidButton
+              asChild
+              variant="default"
+              size="sm"
+              className="navbar__book navbar__book--mobile"
+              onClick={closeMenu}
+            >
+              <Link to="/booking">{t("navbar.bookButton")}</Link>
+            </LiquidButton>
+          </div>
+        </nav>
       </div>
     </header>
   );

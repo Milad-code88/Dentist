@@ -114,4 +114,8 @@
   .treatment-preview__grid {
     grid-template-columns: 1fr;
   }
+
+  .treatment-preview__media {
+    height: 220px;
+  }
 }

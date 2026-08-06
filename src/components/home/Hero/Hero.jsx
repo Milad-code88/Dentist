@@ -22,13 +22,15 @@ const Hero = () => {
       <div className="hero__overlay" />
 
       <motion.div
-        className="hero__content"
+        className="hero__container"
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <h1 className="hero__title">{t("hero.title")}</h1>
-        <p className="hero__subtitle">{t("hero.subtitle")}</p>
+        <div className="hero__text-content">
+          <h1 className="hero__title">{t("hero.title")}</h1>
+          <p className="hero__subtitle">{t("hero.subtitle")}</p>
+        </div>
 
         <div className="hero__actions">
           <LiquidButton
